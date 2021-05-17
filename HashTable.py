@@ -10,5 +10,7 @@ class HashTable() :
         return h % self.MAX                        #100-Size of the list
 
 t = HashTable()
-t.get_hash('march 6')                               #It will give Ans-> 9
+print(t.get_hash('march 6'))                               #It will give Ans-> 9
+
+
 
