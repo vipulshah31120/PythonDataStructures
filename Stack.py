@@ -13,3 +13,7 @@ print(stack.append('2'))
 print(stack.pop())
 
 print('Final Stack: ', stack)
+
+from collections import deque
+stack =  deque()
+print(dir(stack))               #It will give all the methods used in Stack.
