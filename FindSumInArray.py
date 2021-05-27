@@ -8,7 +8,7 @@ def findpivot(arr, n, x) :                      # This function returns count of
     cnt = 0                                     # variable to store count of number of pairs
 
     while(l != r):                              # Find sum of pair formed by arr[l] and arr[r] and update l, r, cnt accordingly
-        if arr[l] + arr[r] == x :               # if sum=x , increment cnt and move l and r to net element
+        if arr[l] + arr[r] == x :               # if sum=x , increment cnt and move l and r to next element
             cnt += 1
             if l == (r - 1 + n) % n :           # this condition is required so that l and r shouldn't cross each other
                 return cnt
