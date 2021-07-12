@@ -1,3 +1,4 @@
+# Putting the zeroes at the end of Array
 n = int(input())
 a = list(map(int,input().split(None, n)[:n]))
 
